@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎂 Happy Birthday! 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+
+  <!-- Floating balloons -->
+  <div class="balloon b1">🎈</div>
+  <div class="balloon b2">🎈</div>
+  <div class="balloon b3">🎈</div>
+  <div class="balloon b4">🎈</div>
+
+  <main class="card">
+    <h1 class="title">🎂 HAPPY BIRTHDAY! 🎉</h1>
+    <p class="subtitle">Janamdin Mubarak! 🥳<br><span class="lol">Tu buddha/a ho raha hai... bas itna hi 😂</span></p>
+
+    <!-- The Cake -->
+    <div class="cake-wrap">
+      <div class="plate"></div>
+      <div class="cake">
+        <div class="candle-row">
+          <div class="candle c1"><div class="flame"></div></div>
+        </div>
+        <div class="layer top">
+          <span class="frosting">🍓❤️🍫</span>
+        </div>
+        <div class="layer mid">
+          <span class="frosting">🎂 HAPPY<br>BIRTHDAY 🎂</span>
+        </div>
+        <div class="layer bottom"></div>
+      </div>
+    </div>
+
+    <p class="hint">🎵 Background music: a.mp3, gaana loop mein apne aap chalta rahega! 🔁🎵<br>
+      <span id="musicStatus" class="status">🎵 Starting music...</span></p>
+
+    <!-- Background audio -->
+    <audio id="bgmusic" src="a.mp3" loop playsinline></audio>
+
+    <div class="jokes">
+      <div class="joke-card">😜 "Age badh gayi, par maturity ka koi pata nahi!"</div>
+      <div class="joke-card">🐒 "Birthday par promise karo: rasgulla khaoge, par mera block nahi karoge!"</div>
+      <div class="joke-card">💀 "Maut se pehle jo birthday pe dhokha dete hain, woh... next cake ke bina rah jaate hain!"</div>
+    </div>
+
+    <p class="footer">Made with ❤️ + laddu 🍬 | Press the candles to blow them out! 🎂</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
